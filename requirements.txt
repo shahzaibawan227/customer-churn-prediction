@@ -1,0 +1,12 @@
+Dependencies for the Customer Churn Prediction notebook
+
+Known versions from the reported Kaggle environment are pinned where available.
+
+SHAP and plotting package versions were not recorded in the project notes.
+
+For an exact environment lock after a successful run, use:
+
+python -m pip freeze > requirements-lock.txt
+
+numpy==2.1.3 pandas==2.3.3 scikit-learn==1.6.1 xgboost==3.4.1 shap>=0.45
+matplotlib>=3.8 jupyter>=1.0 ipykernel>=6.0
